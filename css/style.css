@@ -1,0 +1,522 @@
+/* ------- Font Site Linkup -------  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap'); 
+
+/* --------- Start Defult property  --------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+}
+ul, ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6{
+    line-height: 0.8;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+/* --------- End Defult property  --------- */
+
+/* ----------------------------------
+            ALL Common Class 
+---------------------------------------- */
+
+
+
+.pg_cmn_text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #666666;
+}
+.sub_hd_text{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #444444;
+}
+
+.card_heading{
+    font-family: 'Roboto Slab', serif;
+    font-size: 17px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+/* ------------- NavBar Part Start ------------- */
+
+#navbar{
+    padding: 34px 0 33px 0;
+    background-color: rgba(0, 0, 0, 0.636);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+.nav_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.nav_main ul{
+    display: flex;
+    column-gap: 45px;
+}
+.nav_main ul li a{
+    text-transform: uppercase;
+    color: #f5f5f5;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700px;
+}
+.nav_main ul li a:hover{
+    color: #28b8d8;
+    transition: 0.3s;    
+}
+
+/* ------------- NavBar Part End ------------- */
+/* ------------- Banner Part Start ------------- */
+#banner{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 332px 0 282px 0;    
+}
+.banner_text{
+    text-align: center;
+}
+.banner_text h1{
+    font-size: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.banner_text h2{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-top: 14px;
+}
+.banner_text p{
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    padding-top: 14px;
+
+}
+
+/* ------------- Banner Part End ------------- */
+
+
+/* ------------- Service Part Start ------------- */
+.mid_hd{
+    text-align: center;
+    padding-top: 82px;
+}
+.mid_hd h2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: #444444;
+    padding-bottom: 29px;
+}
+.service_part{
+    padding-bottom: 85px;
+}
+.service_card{
+    display: flex;
+    gap: 30px;
+}
+.service_hd{
+    padding: 78px 0 31px 0;
+    text-align: center;
+
+}
+.service_main{
+    border: 1px solid #e3e3e3;
+    width: 370px;
+    padding: 15px;
+}
+.card_text{
+    padding-top: 25px;
+    text-align: center;
+}
+
+
+/* ------------- Service Part End ------------- */
+
+
+/* ------------- Portfolio Part Start ------------- */
+#portfolio{
+    padding: 50px 0 50px 0;
+    background-color: #000;
+}
+.portfolio_hd{
+    position: relative;
+    text-align: center;
+    
+}
+.portfolio_hd h3::after{
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 418px;
+    width: 100px;
+    height: 1px;
+    transform: translateX(-50%);
+    border: 1px solid #444444;
+    background-color: #444444;
+}
+.portfolio_hd h3::before{
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: 313px;
+    width: 100px;
+    height: 1px;
+    transform: translateX(-50%);
+    border: 1px solid #444444;
+    background-color: #444444;
+}
+.portfolio_main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 44px 0 60px 0;
+
+}
+.portfolio_img{
+    width: 25%;
+    
+}
+.portfolio_img img{
+    width: 100%;
+    height: 329px;
+}
+.social_box{
+    display: flex;
+    justify-content: center;
+}
+.insta_box{
+    border: 1px solid #444444;
+    width: 180px;
+    height: 50px;
+    display: flex;
+    gap: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 15px;
+    color: #444444;
+    
+  
+}
+
+/* ------------- Portfolio Part End ------------- */
+
+
+/* ------------- journal Part start ------------- */
+#journal{
+    padding: 78px 0 80px 0;
+}
+
+.journal_hd{
+    position: relative;
+    text-align: center;
+    
+}
+.journal_hd h3::after{
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 443px;
+    width: 100px;
+    height: 1px;
+    transform: translateX(-50%);
+    border: 0px solid #646464;
+    background-color: #646464;
+}
+.journal_hd h3::before{
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: 340px;
+    width: 100px;
+    height: 1px;
+    transform: translateX(-50%);
+    border: 0px solid #646464;
+    background-color: #646464;
+}
+.journal_card{
+    padding-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.journal_card_item{
+    border: 1px solid #e3e3e3;
+    width: 370px;
+    
+}
+.journal_card_text{
+    padding: 25px 40px 25px 40px ;
+    text-align: center;
+}
+.journal_card_text h3{
+    font-family: 'Roboto Slab', serif;
+    font-size: 17px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+.journal_card_text p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: #999999;
+}
+
+.journal_card_buttom{
+    padding: 25px 28px;
+}
+.journal_card_pg p {
+    text-align: center;
+    padding-bottom: 26px;
+
+}
+.journal_down{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 28px;
+}
+.journal_cr p{
+    border-bottom: 2px solid #28b8d8;
+    display: inline-block;
+    font-family: 'Roboto Slab', serif;
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+   
+}
+.journal_post_react{
+    color: #646464;
+    font-size: 12px;
+}
+/* ------------- journal Part End ------------- */
+
+
+
+/* ---------- About me part start  ---------- */
+#personal_info{
+    padding-bottom: 80px;   
+}
+.main_wrapper{
+    display: flex;
+    column-gap: 30px;
+}
+.about_main{
+    width: 570px;
+  
+}
+.my_service{
+    width: 570px;
+   
+}
+.about_title{
+    position: relative;
+    
+}
+.about_title h3::before{
+    position: absolute;
+    content: "";
+    width: 100px;
+    border: 1px solid #d9d9d9;
+    top: 50%;
+    left: 160px;
+    transform: translateY(-50%);
+}
+.about_img img{
+    width: 197px;
+    height: 282px;
+}
+.about_wrapper{
+    padding-top: 30px;
+    display: flex;
+}
+.about_content{
+    padding-left: 25px;
+}
+.about_content h3{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #c2c2c2;
+    padding-bottom: 30px;
+    line-height: 26px;
+}
+.about_content p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+    line-height: 22px;
+}
+
+/* service  */
+.service_title h3{
+    color: #444444;
+}
+.service_title{
+    position: relative;
+}
+.service_title h3::before{
+    position: absolute;
+    content: "";
+    width: 100px;
+    border: 1px solid #d9d9d9;
+    top: 50%;
+    left: 120px;
+    transform: translateY(-50%);
+}
+.service_wrapper{
+    padding-top: 30px;
+}
+
+.item_wrapper{
+    display: flex;
+    column-gap: 30px;
+    padding-bottom: 30px;
+}
+
+.service_icon{
+    width: 40px;
+    height: 37px;
+    color: #28b8d8;
+}
+.service_icon i{
+    font-size: 40px;
+}
+
+.services_content h3{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: #444444;
+}
+.services_content p{
+    font-family: 'Roboto', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+    padding-top: 20px;
+    line-height: 20px;
+}
+
+#footer{
+   padding: 68px 72px;
+   background-color: #373737;
+}
+.info_item{
+    display: flex;
+}
+.get_in_touch{
+    width: 255px;
+}
+.twitter{
+    width: 223px;
+    margin-left: 50px;
+}
+.posts{
+    width: 207px;
+    margin-left: 82px;
+}
+.about_us{
+    width: 250px;
+    margin-left: 97px;
+}
+.info_title h3{
+    color: #f0f0f0;
+    padding-bottom: 27px;
+}
+.info_content p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #cacaca;
+    padding-bottom: 38px;
+}
+
+.location{
+    display: flex;
+    column-gap: 14px;
+    padding-bottom: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #cacaca;
+}
+.phone{
+    display: flex;
+    column-gap: 14px;
+    padding-bottom: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #cacaca;
+}
+.email{
+    display: flex;
+    column-gap: 14px;
+    padding-bottom: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #cacaca;
+}
+.cont1{
+    column-gap: 14px;
+    padding-bottom: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #cacaca;
+    padding-bottom: 36px;
+}
+.cont2{
+    column-gap: 14px;
+    padding-bottom: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #cacaca;
+    padding-bottom: 37px;
+}
+.cont3{
+    column-gap: 14px;
+    padding-bottom: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #cacaca;
+}
+.copyright_section{
+    background-color: #333333;
+    padding: 40px 40px;
+}
+.copyright_section p{
+    color: #cacaca;
+
+}
+/* ---------- About me part End  ---------- */
+
+/* ----------  Footer part start ---------- */
+
+/* ----------  Footer part End ---------- */
+
